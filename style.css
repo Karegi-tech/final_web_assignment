@@ -1,0 +1,175 @@
+:root {
+  --primary: #5f27cd;
+  --accent: #00cec9;
+  --bg: #f1f2f6;
+  --text: #2d3436;
+  --dark-bg: #2d3436;
+  --light-text: #f1f2f6;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  transition: background 0.3s, color 0.3s;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+}
+
+header {
+  background: var(--primary);
+  color: white;
+  padding: 1rem 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#theme-toggle {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.hamburger {
+  display: none;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background: var(--accent);
+  color: white;
+}
+
+.btn {
+  display: inline-block;
+  background: white;
+  color: var(--primary);
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.carousel img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+.cta {
+  text-align: center;
+  background: #ffeaa7;
+  padding: 1rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  border-radius: 10px;
+}
+
+.subscribe {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.subscribe input {
+  padding: 0.7rem;
+  width: 250px;
+  max-width: 80%;
+  margin: 0.5rem 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.subscribe button {
+  padding: 0.7rem 1.2rem;
+  border: none;
+  background: var(--primary);
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+footer {
+  background: var(--primary);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+#topBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 50%;
+  font-size: 1rem;
+  display: none;
+  cursor: pointer;
+}
+
+/* Dark mode */
+body.dark-mode {
+  background: var(--dark-bg);
+  color: var(--light-text);
+}
+
+body.dark-mode .hero {
+  background: #444;
+}
+
+body.dark-mode .btn {
+  background: var(--light-text);
+  color: var(--dark-bg);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  nav {
+    display: none;
+    flex-direction: column;
+    background: var(--primary);
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    z-index: 999;
+  }
+
+  nav.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  nav a {
+    margin: 1rem;
+  }
+}
