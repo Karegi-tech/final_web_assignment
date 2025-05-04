@@ -4,8 +4,7 @@ Welcome to **VibeStore**, a stylish and modern ecommerce website built with **HT
 
 ## 🌐 Live Site
 
-[👉 View VibeStore Live]([https://your-deployment-link.com](https://karegi-tech.github.io/final_web_assignment/))  
-_(Replace with your actual deployment URL on GitHub Pages, Netlify, or Vercel.)_
+[👉 View VibeStore Live]((https://karegi-tech.github.io/final_web_assignment/))  
 
 ## 📁 Project Structure
 
