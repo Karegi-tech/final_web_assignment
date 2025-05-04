@@ -1,25 +1,30 @@
-# Final Project and Deployment
+# 🛍 VibeStore - Responsive Ecommerce Website
 
-## Objectives
-Build a fully functional web application.
-Apply HTML, CSS, and JavaScript concepts learned.
-Deploy the project using GitHub Pages, Netlify, or Vercel.
+Welcome to **VibeStore**, a stylish and modern ecommerce website built with **HTML5**, **CSS3**, and **JavaScript**. This project demonstrates responsive design, JavaScript interactivity, and clean, semantic structure.
 
-## Instructions
-Choose one of the following project ideas:
-Blog Website: Implement a multi-page site with navigation.
-Ecommerce Website: Implement a multi-page site with navigation.
+## 🌐 Live Site
 
->[!NOTE]
-> - Include at least:
-> - A responsive design.
-> - JavaScript interactivity.
-> - A deployment link.
+[👉 View VibeStore Live]([https://your-deployment-link.com](https://karegi-tech.github.io/final_web_assignment/))  
+_(Replace with your actual deployment URL on GitHub Pages, Netlify, or Vercel.)_
 
-## Tasks
+## 📁 Project Structure
 
-Create a well-structured HTML5 document.
-Use at least 5 different HTML elements.
-Ensure semantic correctness.
 
-Good luck and happy coding! 🚀💻
+## 📌 Features
+
+- ✅ Responsive layout for desktop, tablet, and mobile
+- 🎨 Stylish modern UI
+- 🛒 Product listing with images & pricing
+- 📬 Newsletter subscription form with validation
+- 🌗 Dark/Light mode toggle
+- 📞 Contact section with email, phone, and address
+- 📸 High-quality product images from [Pexels.com](https://www.pexels.com/)
+
+## 💻 Tech Stack
+
+- **HTML5** – Semantic structure
+- **CSS3** – Layout, colors, responsiveness
+- **JavaScript** – Interactivity and form validation
+
+
+> _Created as part of a web development final project. Happy coding! 💻_
